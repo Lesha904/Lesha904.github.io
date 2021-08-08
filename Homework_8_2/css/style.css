@@ -1,0 +1,92 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 184px);
+    gap: 64px 24px;
+    padding: 20px;
+    font-family: Open Sans;
+}
+.grid > div{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.grid > div.light{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.grid div.light{
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid blue;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.text{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.time{
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.flex_box1{
+    padding-top: 80px;
+}
+.flex_box3{
+    position: relative;
+    top: 12px;
+}
+.flex_box5{
+    position: relative;
+    bottom: 10px;
+}
+.flex_box7{
+    position: relative;
+    bottom: 12px;
+}
+.flex_box9{
+    position: relative;
+    bottom: 10px;
+}
+.flex_box11{
+    position: relative;
+    bottom: 25px;
+}
+
+.text2{
+    font-size: 20px;
+    color: #B65741;
+    font-weight: normal;
+}
+.time2{
+    font-size: 28px;
+    color: #AD4328;
+    font-weight: 600;
+}
+.flex_box2{
+    position: relative;
+    top: 12px;
+}
+
+.flex_box4{
+    position: relative;
+    bottom: 20px;
+}
+.flex_box6{
+    position: relative;
+    bottom: 8px;
+}
+.flex_box8{
+    position: relative;
+    bottom: 8px;
+}
+.flex_box10{
+    position: relative;
+    bottom: 27px;
+}
