@@ -1,0 +1,122 @@
+.text {
+  font-size: 60px;
+  color: #0e1a35;
+  font-weight: 250;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center; }
+
+.sentence {
+  height: 69px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8492af;
+  font-weight: 400;
+  font-family: "Roboto";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 65px; }
+
+button {
+  outline: 0;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto";
+  width: 204px;
+  height: 48px;
+  border-radius: 24px;
+  border: 0;
+  background-color: #5584ff; }
+
+.lines-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px; }
+
+.line-left {
+  align-self: center;
+  width: 226px;
+  height: 1px;
+  background-color: #c1c8d47c;
+  margin-right: 25px; }
+
+.line-right {
+  align-self: center;
+  width: 226px;
+  height: 1px;
+  background-color: #c1c8d47c;
+  margin-left: 25px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-auto-rows: 422px;
+  column-gap: 75px;
+  justify-content: center;
+  padding-top: 70px; }
+
+.name {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 36px;
+  color: #0e1a35;
+  font-weight: 400;
+  font-family: "Roboto"; }
+
+.cost {
+  display: flex;
+  flex-direction: row; }
+
+.dollar {
+  font-size: 40px;
+  letter-spacing: 1px;
+  line-height: 65px;
+  color: #0e1a35;
+  font-weight: 700;
+  font-family: "Roboto"; }
+
+.number {
+  font-size: 72px;
+  letter-spacing: 1px;
+  line-height: 46px;
+  color: #0e1a35;
+  font-weight: 700;
+  font-family: "Roboto"; }
+
+.month {
+  font-size: 24px;
+  line-height: 76px;
+  color: #8492af;
+  font-weight: 400;
+  font-family: "Roboto"; }
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 21px 12px #e9e2e2; }
+
+.proposed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 36px;
+  color: #8492af;
+  font-weight: 400;
+  font-family: "Roboto"; }
+
+.symbol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.lorem {
+  padding-left: 10px; }
