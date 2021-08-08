@@ -1,0 +1,38 @@
+
+form{
+    width: 200; /*не работает*/
+    border: 1 solid black; /*не работает*/
+    margin: 25px 250px;
+}
+
+.box{
+    background-color: gold;
+    position: relative;
+    top: 25;
+    
+}
+
+.box2{
+    background-color: khaki;
+}
+
+.form{
+   margin-right: 125px;
+}
+.radio{
+    margin-left: 65px;
+}
+input [type="radio"]{
+    box-shadow: lightslategray ;
+}
+
+.fruit{
+    margin-right: 270px;
+}
+.check{
+    margin-left: 60px;
+}
+button{
+    margin-left: 235px;
+    box-shadow: lightslategray ;
+}

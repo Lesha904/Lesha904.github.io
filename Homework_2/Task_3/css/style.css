@@ -1,0 +1,29 @@
+form {
+    border: 3px lightgray double;
+    width: 500px;
+    margin: auto;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.header, .form-row-item {
+    flex: 1;
+    border: 3px lightgray double;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-color:lightblue;
+}
+
+.submit-btn {
+    margin: auto;
+}
+
+/* textarea {
+    resize: ;
+} */
