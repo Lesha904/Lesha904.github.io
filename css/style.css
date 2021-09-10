@@ -1,16 +1,13 @@
 .container{
   display: flex;
   flex-direction: column;
- /*  height: 200px; */    /* нельзя задавать высоту контейнеру-родителю, если используешь flex */
-  border: 2px solid red;
-  /* justify-content: center; */  /*  не работает пока стоит flex-direction: column; */
- /*  align-content: space-between; */   /*  не работает пока стоит flex-direction: column; */
- /*  align-items: center;   двигаются по поперечной оси */
+ /*  border: 2px solid red; */
 } 
 
 .item{
-  width: 400px;
-  height: 35px;
+  /* width: 400px; */
+  max-width: 400px;
+  /* height: 35px; */
   background: rgb(250, 204, 0);
   margin: 10px;
   font-size: 25px;
